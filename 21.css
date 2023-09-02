@@ -1,0 +1,70 @@
+body {
+    font-family: 'Rubik Iso', cursive;
+    margin: 0px;
+    padding: 0px;
+    background-image: radial-gradient(#e66465, #9198e5);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+#cont {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header h1 {
+    color: red;
+    font-size: 6rem;
+    margin: 0px;
+}
+
+header h1 span {
+    color: white;
+}
+
+main h2 {
+    text-align: center;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#button button {
+    width: 40%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Rubik Iso', cursive;
+    background-color: white;
+    font-size: 1.2rem;
+}
+#resbutton{
+    text-align: center;
+}
+#resbutton #result{
+    width: 40%;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Rubik Iso', cursive;
+    background-color: white;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+main p {
+    font-size: 1.5rem;
+    text-align: center;
+}
